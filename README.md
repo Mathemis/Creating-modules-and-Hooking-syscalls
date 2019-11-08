@@ -25,20 +25,20 @@ Created in Zorin 12.4 on 64 bit, with kernel version 4.15.0-30-generic.
     $ sudo insmod hook.ko
     ```
     
-  + Run `test`
+  + Run `test`.
   
     ```console
     $ ./test
     ```
     
-- On the second terminal: see messages on the logging
+- On the second terminal: see messages on the logging.
 
   ```console
   $ sudo dmesg -c
   $ sudo dmesg -wH
   ```
   
-- Remove module from kernel on the first terminal
+- Remove module from kernel on the first terminal.
 
   ```console
   $ rm hook
